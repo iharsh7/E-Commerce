@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* #cart{
+    border: 2px solid black;
+    background-color: rgb(212, 212, 212);
+} */
+.pare{
+    background-color: white;
+}
+.carthead{
+    /* border: 2px solid black; */
+    width: 94%;
+    margin: auto;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    padding-left: 34px;
+    border-bottom: 1px solid rgb(169, 169, 169);
+    padding-bottom: 11px;
+
+
+}
+.carthead p{
+    font-size: 1.9rem;
+    font-weight: 500;
+}
+
+.cartproduct{
+    /* border: 2px solid black; */
+    display: flex;
+    width: 94%;
+    /* justify-content: space-between; */
+    gap: 9px;
+    margin: auto;
+    border-bottom: 1px solid rgb(169, 169, 169);
+    padding-bottom: 11px;
+    position: relative;
+}
+.cartproduct img{
+    height: 220px;
+}
+.footcart{
+    background-color: white;
+}
+.proimg{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    /* border: 1px solid black; */
+}
+.proinfo{
+    width: 40%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.btncart{
+    /* border: 2px solid black; */
+    padding: 8px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 34px;
+    top: 95px;
+    cursor: pointer;
+    background-color:orangered;
+    color: white;
+    font-weight: bold;
+    transition: 0.1s;
+}
+.btncart:hover{
+    background-color: orange;
+}
+.totalPr{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 49px;
+    gap: 8px;
+    margin-top: 20px;
+}
+.subbox{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px;
+    border-bottom: 1px solid rgb(169, 169, 169);
+    
+}
+.subtotalleft p{
+    font-size: 1rem;
+}

@@ -1,0 +1,117 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: auto;
+    margin-top: 80px;
+    width: 94%;
+    margin-bottom: 10px;
+    /* border: 2px solid red; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.footer_logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.footer_logo p{
+    color: #383838;
+    font-size: 46px;
+    font-weight: 700;
+    transform: translateX(2px);
+    transition: 0.2s;
+}
+/* .footer_logo p:hover{ */
+    /* transform: scale(1.2); */
+    
+    /* transform: translateX(2px); */
+/* } */
+.footer-links{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    color: #252525;
+    font-size: 20px;
+}
+
+.footer-links li{
+    cursor: pointer;
+    padding: 12px;
+    transition: 0.2s;
+
+}
+.footer-links li:hover{
+    /* background-color: rgb(255, 255, 73); */
+    color: orangered;
+    /* font-weight: bold; */
+    border-radius: 9px;
+}
+
+.footer-social-icon{
+    display: flex;
+    gap: 20px;
+}
+.footer-icons-container{
+    padding: 10px;
+    padding-bottom: 6px;
+    background-color: #fbfbfb;
+    border: 1px solid #ebebeb;
+    transition: 0.3s;
+}
+.footer-icons-container:hover{
+    cursor: pointer;
+    background-color: rgb(211, 203, 203);
+    transform: translateY(-3px);
+}
+.footer-copyright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    margin-bottom: 30px;
+    color: #1a1a1a;
+    font-size: 20px;
+}
+.footer-copyright hr{
+    width: 80%;
+    border: none;
+    border-radius: 10px;
+    height: 3px;
+    background-color: #c7c7c7;
+}
+@media screen and (max-width:720px) {
+    .footer-links{
+        flex-direction: column;
+        gap: 5px;
+    }
+    .footer_logo img{
+        height: 70px;
+    }
+    .footer_logo p{
+        font-size: 26px;
+    }
+    .footer{
+        width: 65%;
+        gap: 25px;
+        /* flex-direction: row; */
+        /* flex-wrap: wrap; */
+    }
+    .footer-icons-container{
+        padding: 6px;
+    }
+    .footer-icons-container img{
+        height: 25px;
+    }
+    .footer-links li{
+        margin-top: 9px;
+    }
+  }
+  @media screen and (max-width: 720px) {
+    .signbtn{
+      font-size: 10px;
+      width: 55px;
+    }
+  }

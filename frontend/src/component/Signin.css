@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.title1_signin{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.6rem;
+    gap: 10px;
+}
+.lgo{
+    transition: 2s;
+    animation: lgoani 2s ease-in-out 0.1s infinite alternate ;
+}
+.shop{
+    color: orangered;
+    /* text-shadow: 20rem; */
+}
+
+@keyframes lgoani {
+    from{
+        transform: translateX(-5px);
+    }
+    to{
+        transform: translate(5px);
+    }
+}

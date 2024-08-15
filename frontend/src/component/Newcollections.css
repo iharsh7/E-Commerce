@@ -1,0 +1,95 @@
+.women{
+    display: flex;
+    width: 100%;
+    /* border: 5px solid black; */
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+
+
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    align-items: center;
+    justify-content: center;
+}
+.bottom h5{
+    color: black;
+    /* border: 1px solid black; */
+    text-align: center;
+    width: 268px;
+}
+.women img{
+    height: 300px;
+
+}
+.Items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    /* border: 2px solid red; */
+    transition: 0.3s;
+}
+.top{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Items:hover{
+    transform: translateY(-8px);
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    
+}
+.women1{
+    /* border: 2px solid rgb(180, 199, 5); */
+    width: 95%;
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding-left: -17px;
+    
+}
+.women1 img{
+    height: 280px;
+    
+}
+.popular1{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid rgb(14, 0, 0); */
+    justify-content: center;
+    align-items: center;
+
+}
+.popular{
+    /* border: 1px solid black; */
+}
+.popular1 h1{
+    /* text-align: center; */
+    margin-top: 20px;
+    margin-bottom: 11px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* position: relative; */
+}
+.heading1{
+    /* position: absolute; */
+    width: 205px;
+    height: 2px;
+    border-radius: 10px;
+    background-color: rgb(197, 196, 196);
+    /* top: 1px; */
+    margin-bottom: 22px;
+
+    /* margin-top: -35px; */
+
+}

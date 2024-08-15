@@ -1,0 +1,193 @@
+*{
+    /* color: tomato; */
+    padding: 0px;
+    margin: 0px;
+}
+.logopic{
+    /* border: 2px solid red; */
+    width: 15%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.content{
+    /* border: 2px solid yellow; */
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content a{
+    color: black;
+    margin-left: 27px;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.1s;
+}
+.content a:hover{
+    /* background: black; */
+    border-bottom: 3px solid orangered;
+    margin-bottom: 3px;
+    color: orange;
+
+}
+@media screen and (max-width: 720px) {
+    .content a{
+      font-size: 17px;
+      margin-left: 15px;
+
+    }
+
+  }
+.Navbar{
+    /* border: 2px solid #000000; */
+    padding: 14px;
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    height: 63px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 5px;
+}
+.active{
+    color: orangered;
+}
+@media screen and (max-width: 480px) {
+
+  }
+.count{
+    height: 17px;
+    width: 17px;
+    border-radius: 17px;
+    margin-top: -25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -21px;
+    background-color: red;
+    color: white;
+
+}
+.sign{
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+}
+.company{
+    color: black;
+    margin-left: 8px;
+    font-size: 29px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+}
+@media screen and (max-width: 820px) {
+    .company {
+      font-size: 13px;
+    }
+  }
+  @media screen and (max-width:520px){
+    .company{
+        display: none;
+    }
+  }
+.first{
+    color: orange;
+    animation-name: ekam;
+    /* animation: name duration timing-function delay iteration-count al fill-mode; */
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease-in;}
+@keyframes ekam{
+    /* 0%{
+        transform: translateY(5px);
+    }
+    25%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-5px);
+    }
+    75%{
+        transform: translateY(2.5px);
+    }
+    100%{
+        transform: translateY(5px);
+    } */
+    from{
+        transform: translateY(5px);
+    }
+    to{
+        transform: translateY(-5px);
+    }
+}
+.second{
+    color: antiquewhite;
+}
+.third{
+    color: green;
+    animation-name: duyam;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease-in;
+}
+@keyframes duyam{
+    from{
+        transform: translateY(-5px);
+    }
+    to{
+        transform: translateY(5px);
+    }
+}
+.signbtn{
+    /* height: 38px; */
+    width: 102px;
+    padding: 10px;
+    outline: none;
+    /* border: none; */
+    margin: 3px;
+    border-radius: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: orangered;
+    color: white;
+    border: 1.8px solid orangered;
+    transition: 0.4s;
+    margin-right: 8px;
+}
+.signbtn:hover{
+    cursor: pointer;
+    background-color: transparent;
+
+    color: black;
+
+}
+@media only screen and (max-width: 720px) {
+    .signbtn{
+      font-size: 10px;
+      width: 55px;
+    }
+  }
+.cart{
+    height: 30px;
+}
+@media only screen and (max-width: 720px) {
+    .cart{
+      height: 24px;
+    }
+  }
+.cart:hover{
+    cursor: pointer;
+
+}
+

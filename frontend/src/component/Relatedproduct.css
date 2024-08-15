@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.relatedproduct{
+    /* border: 1px solid black; */
+    width: 83%;
+    margin: auto;
+    margin-top: 90px;
+    /* padding: 5px; */
+}
+.relatedimage img{
+    height: 250px;
+}
+.relatedbanner{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 11px;
+    margin-bottom: 25px;
+
+}
+.relatedbanner h1{
+    padding-bottom: 5px;
+    font-family: cursive;
+    font-weight: 600;
+    /* margin-bottom: 5px; */
+    border-bottom: 1px solid rgb(192, 192, 192);
+    border-width: 4px;
+    /* line-height: 2px; */
+}
+.relatedimage{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}

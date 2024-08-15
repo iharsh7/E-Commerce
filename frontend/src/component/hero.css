@@ -1,0 +1,289 @@
+
+.hero{
+    display: flex;
+    /* border: 2px solid black; */
+    height: 100vh;
+    padding: 25px;
+    background: linear-gradient(180deg,#fde1ff,#e1ffea22 60%);
+
+    
+}
+.lefthero{
+    /* border: 2px solid red; */
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.arrival{
+    /* border: 1px solid brown; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+.arrival p{
+    font-size: 19px;
+    font-family: cursive;
+    font-weight: bold;
+    /* font-size: ; */
+}
+.headinghero{
+    /* border: 1px solid blueviolet; */
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: auto; */
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.headinghero h1{
+    color: black;
+    font-weight: bold;
+    font-family: cursive;
+}
+.latest{
+    height: 50px;
+    width: 150px;
+    outline: none;
+    border: none;
+    border-radius: 21px;
+    background-color: rgb(233, 232, 232);
+    border: 1px solid rgb(247, 62, 62);
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    transition: 0.2s;
+
+}
+.latest:hover{
+    transform: translateY(-3px);
+    background-color: rgb(247, 62, 62);
+    color: whitesmoke;
+}
+.righthero{
+    /* border: 2px solid blue; */
+    height: 95%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+   animation-name: hello;
+   animation-duration: 8s;
+   animation-iteration-count: infinite;
+   animation-fill-mode: backwards;
+   /* animation-direction: reverse; */
+   animation-timing-function: ease-in;
+   /* animation-delay: -2s; */
+   border-radius: 38px;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+    margin-bottom: 8px;
+    /* padding: 8px; */
+}
+@keyframes hello{
+    0%{
+        background-image: url('./Files/hero_image.png');
+    }
+    /* 25%{
+        background-image: url('./Files/product_4.png');
+    } */
+    33.33%{
+        background-image: url('./Files/product_9.png');
+    }
+    66.66%{
+        background-image: url('./Files/product_8.png');
+
+    }
+    99.99%{
+        background-image: url('./Files/product_15.png');
+
+    }
+}
+/* .righthero:hover{
+
+    height: 85%;
+    width: 85%;
+    border-radius: 50%;
+
+} */
+
+.righthero img{
+    height: 85%;
+}
+
+.womenpopular{
+    border: 2px solid red;
+    /* background-color: black; */
+    height: 58vh;
+}
+
+.women{
+    display: flex;
+    width: 100%;
+    /* border: 5px solid black; */
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    flex-wrap: wrap;
+
+
+}
+.card{
+    /* background-color: black; */
+    padding: 3px;
+}
+@media screen and (max-width:720px) {
+
+    .card{
+        width: 250px;
+    }
+    .arrival p{
+        /* color: orange; */
+        display: none;
+    }
+    .headinghero h1{
+        position: absolute;
+        top: 220px;
+        font-size: 30px;
+        color: orangered;
+        /* margin-bottom: 30px; */
+        font-weight: bold;
+        font-family: cursive;
+    }
+    .bottom {
+        font-size: 11px;
+        text-align: justify;
+        /* border: 2px solid black; */
+    }
+    .Items{
+        /* margin: 17px; */
+        margin-left: 7px;
+    }
+    .righthero{
+        /* border: 3px solid black; */
+        width: 0%;
+    }
+    .lefthero{
+        width: 100%;
+        animation-name: hello;
+        position: relative;
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
+        animation-fill-mode: backwards;
+        /* animation-direction: reverse; */
+        animation-timing-function: ease-in;
+        /* animation-delay: -2s; */
+        border-radius: 38px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    @keyframes hello{
+        0%{
+            background-image: url('./Files/hero_image.png');
+        }
+        /* 25%{
+            background-image: url('./Files/product_4.png');
+        } */
+        33.33%{
+            background-image: url('./Files/product_9.png');
+        }
+        66.66%{
+            background-image: url('./Files/product_8.png');
+    
+        }
+        99.99%{
+            background-image: url('./Files/product_15.png');
+    
+        }
+    }
+
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+    color: rgb(7, 7, 7);
+    align-items: center;
+    padding: 2px;
+    justify-content: center;
+}
+.bottom h5{
+    color: rgb(7, 7, 7);
+    /* border: 1px solid black; */
+    text-align: center;
+    width: 268px;
+}
+.women img{
+    height: 270px;
+
+}
+.Items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    /* border: 2px solid red; */
+    transition: 0.3s;
+}
+.top{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Items:hover{
+    transform: translateY(-8px);
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    
+}
+.popular{
+    display: flex;
+    flex-direction: column;
+    margin-top: 19px;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.popular h1{
+    /* text-align: center; */
+    /* margin-bottom: 49px; */
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* position: relative; */
+}
+.heading1{
+    /* position: absolute; */
+    width: 205px;
+    height: 2px;
+    border-radius: 10px;
+    background-color: rgb(197, 196, 196);
+    /* top: 1px; */
+    margin-bottom: 22px;
+
+    /* margin-top: -35px; */
+
+}
+.newprice{
+    color: black;
+    font-weight: bold;
+    margin-right: 7px;
+}
+.price{
+    color: black;
+}
+

@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.desccontainer{
+    /* border: 2px solid black; */
+    padding: 10px;
+    width: 84%;
+    
+    margin: auto;
+    margin-top: 58px;
+}
+.descripnavbar{
+    /* border: 1px solid black; */
+    display: flex;
+    gap: 0px;
+}
+.descrinav1{
+    border: 0.4px solid rgb(161, 161, 161);
+    padding: 10px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+.descrinav2{
+    border: 1px solid rgb(161, 161, 161);
+    padding: 10px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+.descrinav1:hover{
+    cursor: pointer;
+    background-color: rgb(187, 187, 187);
+}
+.descrinav2:hover{
+    cursor: pointer;
+    background-color: rgb(187, 187, 187);
+}
+.info{
+    border: 1px solid rgb(161, 161, 161);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 29px;
+    /* padding: 19px; */
+}
+.info p{
+    font-size: 0.7rem;
+    font-weight: 700;
+}
